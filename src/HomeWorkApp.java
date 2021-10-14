@@ -2,48 +2,44 @@ import java.util.Scanner;
 
 public class HomeWorkApp {
     public static void main(String[] args) {
-        printTreeWords();
-        checkSunSing();
-        printColor();
-        compareNumbers();
+//        within10and20(5, 6);
+//        isPositiveOrNegative(10);
+//        isNegative(7);
+        printWordTimes();
     }
 
-    public static void printTreeWords() {
-        System.out.println("Orange");
-        System.out.println("Banana");
-        System.out.println("Apple");
-    }
+//    public static boolean within10and20(int a, int b) {
+//        int sum = a + b;
+//        if (sum <= 10 && sum >= 20) {
+//            return true;
+//        } else {
+//            return false;
+//        }
 
-    public static void checkSunSing() {
-        int a = 15;
-        int b = 10;
-        if (a + b >=0) {
-            System.out.println("Сумма положительная");}
-        else if (a + b <=0) {
-            System.out.println("Сумма отрицательная");
+//    public static void isPositiveOrNegative(int a){
+//            ;
+//            if (a < 0) {
+//                System.out.println("отрицательное");
+//            } else {
+//                System.out.println("Положительное");
+//            }
+
+//            public static boolean isNegative ( int a){
+//                if (a < 0) ;
+//                {
+//                    return true;
+//                }
+//                return false;
+//            }
+
+    public static void printWordTimes(); {
+        for (int i = 0; i = 5; i++) {
+            System.out.println("Привет");
         }
     }
 
-    public static void printColor() {
-        int value = 45;
-        if (value <= 100) {
-            System.out.println("Желтый");
-        } else if (value < 0) {
-            System.out.println("Красный");
-        } else if (value > 100) {
-            System.out.println("Зеленый");
-        }
-    }
-    public static void compareNumbers() {
-        int a = 5;
-        int b = 2;
-        if (a < b) {
-            System.out.println("а меньше b"); }
-        if (a >= b) {
-            System.out.println("а больше или равно b");
-        }
-    }
-}
+
+
 
 
 
